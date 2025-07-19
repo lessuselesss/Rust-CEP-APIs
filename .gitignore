@@ -1,0 +1,12 @@
+# ignore all by default 
+*
+
+# add exceptions for 
+!src/
+!tests/
+!Cargo.*
+!examples/
+
+!LICENSE
+!.gitignore
+!README.md
