@@ -1,12 +1,19 @@
 # ignore all by default 
 *
 
-# add exceptions for 
+# add exceptions for main library
 !src/
-!tests/
+
+# dependencies
 !Cargo.*
+
+# testing harness
+!tests/
+
+# examples
 !examples/
 
+# misc
 !LICENSE
 !.gitignore
 !README.md
